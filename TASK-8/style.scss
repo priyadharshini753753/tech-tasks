@@ -1,0 +1,28 @@
+$primary-color: #4CAF50;
+$font-main: Arial, sans-serif;
+
+body {
+  font-family: $font-main;
+  background-color: #f5f5f5;
+}
+
+.container {
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: $primary-color;
+    color: white;
+
+    &:hover {
+      background-color: darkgreen;
+    }
+  }
+}
